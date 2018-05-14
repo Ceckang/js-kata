@@ -2,14 +2,27 @@ body {
     /* width: 100vw;
     height: 100vw; */
     position: relative;
+    overflow: hidden;
 }
 #cookie {
-    /* border-radius: 50%; */
-    background: blue;
-    width: 100px;
-    height: 100px;
+    border-radius: 50%; 
+    background: rgb(109, 91, 51);
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -20px;
-    left: -20px; 
+    /* top: -20px;
+    left: -20px;  */
     transition: all 5s;
+}
+.btn {
+    background-color: rgb(77, 36, 29);
+    border-radius: 50%;
+    color: rgb(109, 91, 51);
+    border: none;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 27%;
+    left: 27%;
+
 }
